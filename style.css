@@ -1,0 +1,139 @@
+.img {
+  height: 350px;
+  width: 260px;
+  position: absolute;
+}
+.header {
+  position: absolute;
+  margin-left: 650px;
+  font-size: 40px;
+  font-family: comic sans MS;
+  font-weight: bolder;
+}
+.parent {
+  height: 400px;
+  width: 300px;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+#circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 175px;
+}
+#middle {
+  height: 80px;
+  width: 8px;
+  background-color: black;
+  margin-top: 155px;
+  margin-left: 197px;
+  position: absolute;
+}
+#leftleg {
+  height: 60px;
+  width: 8px;
+  background-color: black;
+  margin-top: 225px;
+  margin-left: 175px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+#rightleg {
+  height: 60px;
+  width: 8px;
+  background-color: black;
+  margin-top: 225px;
+  margin-left: 220px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+#lefthand {
+  height: 60px;
+  width: 8px;
+  background-color: black;
+  margin-top: 170px;
+  margin-left: 175px;
+  position: absolute;
+  transform: rotate(45deg);
+}
+#righthand {
+  height: 60px;
+  width: 8px;
+  background-color: black;
+  margin-top: 170px;
+  margin-left: 220px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.hide {
+  display: none;
+}
+.keypad {
+  height: 300px;
+  width: 800px;
+  margin-left: 700px;
+  margin-top: -250px;
+  position: absolute;
+}
+button {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: LAVENDER;
+  border: 3px solid PLUM;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.guess {
+  margin-left: 920px;
+  margin-top: 200px;
+  position: absolute;
+  font-size: 50px;
+  color: GOLDENROD;
+  font-weight: 700;
+}
+.row2 {
+  margin-left: 60px;
+}
+.row3 {
+  margin-left: 160px;
+}
+#retry {
+  margin-top: -200px;
+  margin-left: 950px;
+  position: absolute;
+  width: 100px;
+}
+#result {
+  margin-top: -250px;
+  margin-left: 870px;
+  position: absolute;
+  width: 300px;
+  font-size: 25px;
+  font-family: comic sans MS;
+}
+#box {
+  border: 1px solid;
+  width: 300px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 800px;
+  position: relative;
+}
+body {
+  background-color: GHOSTWHITE;
+}
+.question {
+  margin-left: 510px;
+  margin-top: 120px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
