@@ -12,46 +12,17 @@ const keypad = document.querySelector(".keypad");
 const retry = document.getElementById("retry");
 const result = document.getElementById("result");
 
-const letters = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
-
 let words = [
-  "variable",
-  "loop",
-  "recursion",
+  "java",
+  "ruby",
+  "javascript",
   "python",
   "jquery",
-  "queue",
-  "execution",
-  "console",
-  "identifier",
-  "error",
+  "php",
+  "sql",
+  "swift",
+  "typescript",
+  "perl",
 ];
 let guessLeter = [];
 
